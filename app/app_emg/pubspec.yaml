@@ -1,0 +1,63 @@
+name: app_emg
+description: "App EMG"
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_launcher_icons: ^0.14.4
+  curved_navigation_bar: ^1.0.6
+  flutter_svg: ^2.2.0
+  carousel_slider: ^5.1.1
+  flutter_blue_plus: ^1.35.5
+  shared_preferences: ^2.5.3
+  fl_chart: ^1.0.0
+  numberpicker: ^2.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/logos/logoiuh.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/calibrate/
+    - assets/images/gif/
+    - assets/images/icons/
+    - assets/images/layouts/
+    - assets/images/logos/
+  fonts:
+    - family: Livvic
+      fonts:
+        - asset: assets/fonts/livvic/Livvic-Regular.ttf
+        - asset: assets/fonts/livvic/Livvic-Bold.ttf
+        - asset: assets/fonts/livvic/Livvic-SemiBold.ttf
+          weight: 700
+    - family: Quicksand
+      fonts:
+        - asset: assets/fonts/quicksand/Quicksand-Bold.ttf
+        - asset: assets/fonts/quicksand/Quicksand-Light.ttf
+        - asset: assets/fonts/quicksand/Quicksand-Medium.ttf
+        - asset: assets/fonts/quicksand/Quicksand-Regular.ttf
+        - asset: assets/fonts/quicksand/Quicksand-SemiBold.ttf
+          weight: 700
+    - family: NotoSans
+      fonts:
+        - asset: assets/fonts/notosans/NotoSans-Italic-VariableFont_wdth,wght.ttf
+        - asset: assets/fonts/notosans/NotoSans-VariableFont_wdth,wght.ttf
+          weight: 700
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto/Roboto-Italic-VariableFont_wdth,wght.ttf
+        - asset: assets/fonts/Roboto/Roboto-VariableFont_wdth,wght.ttf
+          weight: 700
